@@ -41,7 +41,8 @@
                             <h5 class="card-title">meu projeto 1</h5>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk
                                 of the card’s content.</p>
-                            <button type="button" class="btn btn-link">veja o projeto </button>
+                            <button type="button" class="btn btn-link" data-bs-toggle="modal"
+                                data-bs-toggle="#Modal1"></button>>veja o projeto </button>
                         </div>
                     </div>
                 </div>
@@ -55,7 +56,8 @@
                             <h5 class="card-title">meu projeto 2</h5>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk
                                 of the card’s content.</p>
-                            <button type="button" class="btn btn-link">veja o projeto </button>
+                            <button type="button" class="btn btn-link" data-bs-toggle="modal"
+                                data-bs-toggle=""="#Modal2"></button>>veja o projeto </button>
                         </div>
                     </div>
 
@@ -70,7 +72,8 @@
                             <h5 class="card-title">meu projeto 3</h5>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk
                                 of the card’s content.</p>
-                            <button type="button" class="btn btn-link">veja o projeto </button>
+                            <button type="button" class="btn btn-link" data-bs-toggle="modal"
+                                data-bs-toggle="#Modal3"></button>>veja o projeto </button>
                         </div>
                     </div>
 
@@ -82,14 +85,39 @@
 
         </main>
 
-        <footer class="container py-5">
-             <h2>Entre em contato</h2>    
-             <div>
-                <a href="https://github.com/Nunes1111">GitHub</a>
-             </div>
+        <!-- MODAL -->
+        <div class="modal" id="modal1" tabindex="-1">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Projeto Ping-pong</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>O jogo de Ping Pong em JavaScript é um clássico da programação que roda dentro de um <canvas>
+                                numa página web. O JavaScript controla todo o jogo: desenha a bola e as raquetes, faz
+                                elas se moverem, detecta as colisões da bola com as paredes e as raquetes, e ainda cuida
+                                do placar. Tudo isso acontece num loop contínuo, onde o jogo é atualizado e redesenhado
+                                rapidamente. A raquete do jogador se move com o teclado, enquanto a do adversário pode
+                                ter uma lógica simples para seguir a bola. É um ótimo exemplo de como criar interação e
+                                movimento em jogos usando apenas o JavaScript.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <a href=" "> Ver projeto ao vivo</a>
+                        <a href=" "> Ver código do projeto</a>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-             <p class="my-5 text-center" > Copyright 2025, Produzido por Rodolo Piekler Nunes</p>
-        
+        <footer class="container py-5">
+            <h2>Entre em contato</h2>
+            <div>
+                <a href="https://github.com/Nunes1111">GitHub</a>
+            </div>
+
+            <p class="my-5 text-center"> Copyright 2025, Produzido por Rodolo Piekler Nunes</p>
+
         </footer>
 
 
